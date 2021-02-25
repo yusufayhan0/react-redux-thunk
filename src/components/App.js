@@ -22,8 +22,7 @@ function App(props) {
 
   return (
     <div className="App">
-      <h1>React Dersleri</h1>
-      <h2>React Router</h2>
+      <h2>React Thunk</h2>
       {props.errorMessage=="" ? props.isLoading?<p>Yükleniyor...</p>: props.countries.map(country => {
         return (
           <div key={country.name}>
